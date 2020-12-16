@@ -1,0 +1,29 @@
+h1 {color: blue; }
+body {
+    text-align: center;
+    background-color: silver;
+}
+.container {
+    display: grid;
+    
+    grid-template-columns: repeat(5, auto);
+    width: 510px;
+    margin: 50px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-color: blue;
+    cursor: pointer;
+    background: lightgreen;
+    font-size: 80px;
+    color: blue;
+ 
+}
+.newGame {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 12px;
+}
